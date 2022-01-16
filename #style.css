@@ -1,0 +1,30 @@
+body{
+background-color: rgb(150, 140, 150);
+;
+]
+
+
+header {
+    background-color: blue;
+    height: 118px;
+    width: 1024;
+margin-left: auto;
+margin-right: auto;
+}
+
+nav {
+background-color: red;
+    height: 40px;
+    width: 1024px;
+}
+
+main{
+    background-color: orange;
+    height: 40px;
+    width: 1024px;
+}
+footer{
+    background-color: yellowgreen;
+    height: 40px;
+    width: 1024;
+}
