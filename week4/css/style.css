@@ -1,0 +1,56 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgba(209, 214, 224, 0.301);
+    background-size: cover;
+    text-align:center;
+}
+
+p {
+    color: black;
+}
+
+h1, h4 {
+    color: black;
+}
+header, footer {
+    background-color: #5f482d;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+}
+
+
+a {
+    color: black
+}
+
+/* Class Selectors *******************/
+.page{
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.footer {
+    height: 100px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.footer__course p{
+    color: var(--body_color);
+    font-size: 20px;
+}
+
+.footer__socialMedia img{
+    height: 40px;
+    
+}
+
