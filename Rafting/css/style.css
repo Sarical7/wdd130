@@ -6,7 +6,7 @@ body {
     background-color: rgb(36 67 68);
     font-size: 16px;
     font-family: Georgia, serif;  
-    background-image: linear-gradient(0deg, #c4bdac, rgba(0, 0, 0, .7)), url(images/hero1.png);
+    background-image: linear-gradient(0deg, #56c7c2, rgba(0, 0, 0, .7)), url(images/hero1.png);
     background-attachment: fixed;
     background-position: center top;
     background-repeat: no-repeat;
@@ -31,6 +31,11 @@ header{
     border-radius: 1rem;
     font-size: 1rem;
      
+}
+
+header img {
+    width: 100px;
+    height: auto;    
 }
 
 .herodiv {
@@ -94,6 +99,7 @@ footer{
     font-size: 1rem;
      
 }
+
 .white {
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
@@ -139,7 +145,7 @@ p {
 }
  .stats {
     position: absolute;
-	top: 250px;
+	top: 450px;
 	right: 50px;
 	background: radial-gradient(#eee, #6a6a18);
 	border: 1px solid #cdcd85;
@@ -169,4 +175,100 @@ p {
 
 
 }
- 
+
+
+.indentS {
+    padding-left: 10px;
+}
+
+.indent {
+    padding-left: 30px;
+}
+
+.copyright {
+    text-align: center;
+}
+
+.container2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1;
+    grid-column-gap: 20px;
+    padding: 25px;
+    text-align: left;
+}
+
+.Rivers {
+    grid-column: 1/2;
+    width: 300px;
+    padding: 20px;
+    padding-top: 0px;
+    border-radius: 1.5rem;
+}
+
+.services {
+    grid-column: 2/3;
+    width: 500px;
+    padding: 20px;
+    padding-top: 0px;
+    border-radius: 1.5rem;
+}
+
+
+.container3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1;
+    grid-column-gap: 5px;
+    padding: 20px;
+}
+
+.templeimg {
+    padding-top: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.container4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1;
+    grid-column-gap: 40px;
+    padding: 20px;
+}
+
+
+form {
+    margin: 30px auto;
+    width: 500px;
+    display: inline-block;
+    padding: 1em;
+    border: 1px solid #e9e0e9;
+    border-radius: 1em;
+    
+  }
+
+  
+
+.datesandpriceinfo  {
+    grid-column: 1/2;
+}
+
+.imagecanyon2 {
+    grid-column: 2/3;
+}
+
+.imagecanyon {
+    padding-top: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+
+#messageBox {
+    text-align: center;
+}
