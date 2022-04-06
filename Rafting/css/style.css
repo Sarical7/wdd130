@@ -43,24 +43,38 @@ header img {
     position: relative;
 }
 nav {
-    flex: 1 1 auto;
-}
-
-nav > ul {
-    list-style-type: none;
+    width: 50%;
+  }
+  
+  nav ul.navigation {
+    display: -ms-flex;
     display: flex;
+    list-style: none;
+    justify-content: center;
+    justify-items: center;
+    
   }
-  nav a {
-    padding: 1em;
-    min-width: 70px;
-    text-decoration: none;
+  
+  nav ul.navigation li {
+    margin-left: 10px;
   }
-  nav a:link, nav a:visited {
-    color: var(--nav-link-color);
-    background-color: var(--nav-hover-background-color);
-    font-weight: 700;
+  
+  
+  nav ul.navigation a{
+    display: block;
+    padding: 8px 25px;
+    color: #fff4f4;
+    font-size: 20px;
+    font-weight: 600;
+    transition-duration: 0.4s;
   }
-
+  
+  nav ul.navigation a:hover{	
+    background-color: var(--grey); 
+    color: var(--blue);
+    border-radius: 8px;
+  }
+  
 .home-grid {
       display: grid;
       margin: 2rem;
