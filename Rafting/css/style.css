@@ -166,8 +166,10 @@ p {
 	padding: 1rem;
 	box-shadow: 0 0 30px #00a0ff;
 	opacity: 1;
-    font-style: italic;
+    font-style: normal;
+    font-size: 20px;
     text-align: center;
+
  }
 
  .footer {
